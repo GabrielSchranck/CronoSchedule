@@ -1,0 +1,60 @@
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Rider/VSCode
+.idea/
+.vscode/
+.vscode-test/
+
+# Visual Studio
+.vs/
+*.dbmdl
+*.bak
+*.Backup
+*.cache
+*.pdb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# MAUI-specific
+**/platforms/android/app/build/
+**/platforms/ios/obj/
+**/platforms/maccatalyst/obj/
+**/platforms/windows/obj/
+**/platforms/windows/bin/
+**/platforms/maccatalyst/bin/
+**/platforms/ios/bin/
+**/platforms/android/bin/
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Others
+*.apk
+*.apks
+*.aab
+*.xcuserstate
+*.xcworkspace
+*.xcassets
+*.ipch
+*.tlog
+*.vspscc
+*.vssscc
+ 
