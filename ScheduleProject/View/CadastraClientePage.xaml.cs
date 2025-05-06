@@ -21,6 +21,11 @@ public partial class CadastraClientePage : ContentPage
 
     private async void btnCadastrar_Clicked(object sender, EventArgs e)
     {
+        await CadastrarCliente();
+    }
+
+    private async Task CadastrarCliente()
+    {
         var cliente = new Cliente();
         cliente.Nome = NomeEntry.Text;
 
